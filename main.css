@@ -6,17 +6,20 @@
 body {
   font-family: 'Cambria', 'sans-serif';
   background-color: #051626 !important;
+  color: #000000;
 }
 body h1{
   font-family: 'Cambria', 'sans-serif';
   font-weight: bold;
   font-size: 56px;
   line-height: 66px;
+  color: #000000;
 }
 
 .h1, .h2, .h3, h1, h2, h3 {
   margin-top: 0px !important;
   margin-bottom: 0px !important;
+  color: #000000;
 }
 
 .col-sm-1 {
@@ -200,6 +203,7 @@ padding: 50px 0;
   margin: -17px 0 0 25px;
   letter-spacing: 0.15px;
   font-weight: 600;
+  color: #000000;
 }
 
 .tagline img{
@@ -217,12 +221,14 @@ padding: 50px 0;
   line-height: 26px;
   letter-spacing: 0.15px;
   width: 460px;
+  color: #000000;
 }
 
 .main-tagline h2{
   font-family: Inter;
   font-size: 32px;
   font-weight: 500;
+  color: #000000;
 
 }
 
@@ -281,10 +287,32 @@ padding: 50px 0;
   margin: -19px 0 0 25px;
   letter-spacing: 0.15px;
   font-weight: 600;
+  color: #000000;
 }
 
 .about-sec img{
   width: 12%;
+}
+
+.watch-line{
+
+}
+
+.watch-line h2{
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: 0.15px;
+  color: #000000;
+
+}
+
+.watch-line p{
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
 }
 
 .bg-gr{
@@ -397,6 +425,7 @@ li.active.collapsed {
   font-size: 40px;
   line-height: 42px;
   letter-spacing: 0.15px;
+  color: #000000;
 }
 
 .tap-bg p{
@@ -404,6 +433,7 @@ li.active.collapsed {
   font-size: 16px;
   margin-top: 10px;
   font-weight: 400;
+  color: #000000;
 }
 
 .tap-bg img{
@@ -425,7 +455,7 @@ li.active.collapsed {
   width: 500px;
 }
 
-.tap-text-left{
+.left{
   font-family: Inter;
   text-align: left;
   width: 500px;

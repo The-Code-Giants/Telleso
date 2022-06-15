@@ -1,3 +1,4 @@
+@import "./globalStyle.css";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 @font-face {
   font-family: Cambria;
@@ -627,49 +628,8 @@ li.active.collapsed {
   margin: auto;
 }
 
-/* header start */
-.main-header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #051626;
-  color: #fff;
-  width: 100%;
-  padding: 24px 0;
-}
-.header-links {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-.header-links .link {
-  cursor: pointer;
-  font-size: 16px;
-}
-select {
-  background: none;
-  color: #fff;
-  border: none;
-}
-select option {
-  background-color: #051626;
-}
-.header-btn-wrapper {
-  background-color: #00ffff;
-  color: #000;
-  border-radius: 20px;
-  padding: 10px 16px;
-  font-size: 14px;
-  font-weight: 500;
-  display: inline-block;
-  cursor: pointer;
-}
-/* header end */
-/* responsive page start */
 @media screen and (max-width: 900px) {
-  .main-header {
-    flex-direction: column;
-    gap: 10px;
+  .open{
+    bottom: -224px;
   }
 }
-/* responsive page end */

@@ -431,7 +431,6 @@ li.active.collapsed {
 .tap-style {
   padding: 5px 100px;
   align-content: initial;
-  alignment-baseline: baseline;
   margin: 40px auto !important;
   display: flex;
   align-items: center;

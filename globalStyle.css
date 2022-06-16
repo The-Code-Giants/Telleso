@@ -50,7 +50,7 @@ a {
   .open {
     position: absolute;
     left: 0;
-    bottom: -206px;
+    bottom: -203px;
     display: flex;
     flex-direction: column;
     background-color: #051626;
@@ -218,7 +218,7 @@ display: block;
   .open {
     position: absolute;
     left: 0;
-    bottom: -206px;
+    bottom: -203px;
     display: flex;
     flex-direction: column;
     background-color: #051626;

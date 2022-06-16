@@ -56,7 +56,6 @@
   }
 }
 
-
 /* header start */
 .main-header {
   display: flex;
@@ -75,6 +74,18 @@
 .header-links .link {
   cursor: pointer;
   font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.up {
+  display: none;
+}
+.link:hover .up {
+  display: block;
+}
+.link:hover .down {
+  display: none;
 }
 select {
   background: none;
@@ -94,7 +105,7 @@ select option {
   display: inline-block;
   cursor: pointer;
 }
-.mobile-header-btn{
+.mobile-header-btn {
   background-color: #00ffff;
   color: #000;
   border-radius: 20px;
@@ -122,6 +133,64 @@ select option {
 }
 .open {
   display: none;
+}
+header {
+  position: relative;
+}
+.sub-header {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  padding: 40px 100px;
+  z-index: 1;
+  display: none;
+}
+.open-sub-header{
+display: block;
+}
+.sub-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.sub-header .container .col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.sub-header .container .col .page-link {
+  padding: 10px;
+  cursor: pointer;
+}
+.sub-header .container .col .page-link:hover {
+  background: #e9ecf0;
+  border-radius: 10px;
+}
+.container .col-2 {
+  margin-top: 40px;
+}
+.container .col-3 {
+  margin-left: 50px;
+  cursor: pointer;
+}
+.col h2 {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  padding: 10px;
+}
+.col h3 {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  line-height: 22px;
+}
+.col p {
+  font-size: 14px;
+  letter-spacing: 0.01em;
 }
 /* header end */
 /* responsive header end */ /* responsive header start */

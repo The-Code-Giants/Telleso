@@ -1,0 +1,62 @@
+@import "../../globalStyle.css";
+@import "../../main.css";
+@import "../productOverview/productOverview.css";
+
+/* section-1-start */
+.section-1 {
+  background-color: #fff9e9;
+  height: 100vh;
+  width: 100%;
+}
+.screen1-ellipse {
+  position: absolute;
+  left: 8px;
+  top: 27px;
+  z-index: -1;
+}
+
+/* section-1-start end */
+
+/* section-2 start */
+.section-2,
+.section-3 {
+  background: rgba(93, 158, 235, 0.16);
+  position: relative;
+  height: 70vh;
+}
+.screen2-e-blue {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.screen2-e-blue-b {
+  position: absolute;
+  bottom: -20px;
+  left: 3px;
+  z-index: -1;
+}
+/* section-2 end */
+
+/* section-4 start */
+.section-4 {
+  background: #fff;
+  position: relative;
+  height: 70vh;
+}
+.pb {
+  padding-top: 120px;
+}
+.screen4-ellispse-up {
+  position: absolute;
+  top: -63px;
+  left: 90px;
+  z-index: -1;
+}
+.screen4-a-ellipse {
+  position: absolute;
+  bottom: 65px;
+  left: -170px;
+  z-index: -1;
+}
+/* section-4  end*/

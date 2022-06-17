@@ -1,7 +1,8 @@
 
 .request-demo{
-    background: linear-gradient(240deg, rgb(0 255 255 / 6%) 43%, #FFF9E9 40%);
-    padding: 100px 120px;
+    background: linear-gradient(240deg, rgb(0 255 255 / 6%) 42%, #FFF9E9 42%);
+    padding: 100px 120px 150px 120px;
+
 }
 .demo-sections{
     display: flex;
@@ -10,7 +11,7 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
     justify-content: end;
 }
 
@@ -60,7 +61,7 @@ padding: 30px 0;
 }
 
 .color-w{
-    width: 10%;
+    width: 20%;
 }
 
 .eclipse-req{
@@ -72,7 +73,7 @@ padding: 30px 0;
     z-index: 1;
     position: absolute;
     top: 38%;
-    left: 48%;
+    left: 47%;
 
 }
 
@@ -84,7 +85,7 @@ padding: 30px 0;
     height: 200px;
     background: #d27b7b30;
     transform: rotate(-90deg);
-    border-radius: 0% 100% 0% 0%;77
+    border-radius: 0% 100% 0% 0%;
     z-index: 1;
     position: absolute;
     top: 82%;
@@ -96,7 +97,7 @@ padding: 30px 0;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    width: 43%;
+    width: 50%;
     justify-content: end;
 }
 .submit-form{
@@ -160,9 +161,8 @@ z-index: 99;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 15px !important;
     line-height: 22px;
-    width: 400px;
 }
 
 .spealist-images img {

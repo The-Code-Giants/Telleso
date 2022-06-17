@@ -6,6 +6,7 @@
 body {
   font-family: "Cambria", "sans-serif";
   color: #000000;
+  overflow-x: hidden;
 }
 body h1 {
   font-family: "Cambria", "sans-serif";
@@ -267,7 +268,7 @@ footer {
 }
 
 .sec-bg {
-  background-image: url(Images/Group\11658\\(1\).png);
+  background-image: url(assets/images/ellipses/ellipseRight.png);
   background-position: center center;
   background-size: cover;
   padding: 100px 0px;
@@ -427,7 +428,7 @@ li.active.collapsed {
 }
 
 .tap-style {
-  padding: 5px 100px;
+  padding: 5px 120px;
   align-content: initial;
   alignment-baseline: baseline;
   margin: 40px auto !important;
@@ -513,6 +514,9 @@ li.active.collapsed {
   background-color: #f3f4f5;
   padding: 20px;
   text-align: left;
+  height: 200px;
+  display: grid;
+  border-radius: 0 0px 10px 10px;
 }
 
 .card-inner h3 {
@@ -543,6 +547,9 @@ li.active.collapsed {
 
 .listen-btn img {
   width: 20px;
+}
+.foot-above {
+  background-color: #051626;
 }
 
 .request-bg {

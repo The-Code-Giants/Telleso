@@ -125,7 +125,7 @@ body {
 /* section-3-start start */
 .pricing-section3 {
   width: 100%;
-  height: 1100px;
+  height: 1400px;
   background: rgba(93, 158, 235, 0.07);
   padding: 50px 100px;
 }
@@ -137,12 +137,21 @@ body {
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
 }
-.table-header>div:not(:first-child){
+.pricing-section3-table .table h3{
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+}
+.pricing-section3-table .table p{
+  font-size: 14px;
+  padding-top: 10px;
+}
+.table-header > div:not(:first-child) {
   text-align: center;
   padding: 0 10px;
   width: 200px;
 }
-.table>div:not(:first-child){
+.table > div:not(:first-child) {
   text-align: center;
   padding: 0 10px;
   width: 200px;
@@ -150,3 +159,33 @@ body {
   border-left: 1px solid lightgray;
 }
 /* section-3-start end */
+/* section-4-start  */
+.pricing-section4 {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff9e9;
+  padding: 50px 100px;
+}
+ul.faq-sec {
+  float: left;
+  padding: 0;
+  background-color: none;
+  border-radius: none;
+  border: none;
+}
+li.active {
+  width: 0;
+}
+.pricing-section4 .tag {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.pricing-section4 .tag h3 {
+  position: absolute;
+  top: 5px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+}
+/* section-4-end */

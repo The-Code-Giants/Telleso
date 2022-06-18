@@ -11,7 +11,6 @@
 
 a {
   text-decoration: none !important;
-  color: initial !important;
 }
 
 .flex {
@@ -83,6 +82,12 @@ a {
   display: flex;
   align-items: center;
   gap: 6px;
+}
+.link a{
+  color: #fff;
+}
+.link a:hover{
+  color: #fff;
 }
 .up {
   display: none;
@@ -174,6 +179,9 @@ display: block;
 .sub-header .container .col .page-link:hover {
   background: #e9ecf0;
   border-radius: 10px;
+}
+.page-link h3,p{
+  color: #000;
 }
 .container .col-2 {
   margin-top: 40px;

@@ -1,0 +1,11 @@
+@import "../../globalStyle.css";
+@import "../../main.css";
+@import "../productOverview/productOverview.css";
+
+body {
+  background-color: #fff !important;
+}
+/* section-1-start */
+
+/* section-1-start end */
+

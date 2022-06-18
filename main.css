@@ -628,7 +628,7 @@ li.active.collapsed {
 }
 
 @media screen and (max-width: 900px) {
-  .open{
+  .open {
     bottom: -224px;
   }
 }

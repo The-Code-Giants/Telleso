@@ -20,7 +20,7 @@ a {
   display: flex;
   flex-direction: column;
 }
-.items-center {
+.align-center {
   align-items: center;
 }
 .justify-center {
@@ -29,7 +29,22 @@ a {
 .justify-between {
   justify-content: space-between;
 }
-
+.black-btn {
+  background-color: #051626;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  padding: 10px 20px; 
+  border-radius: 50px;
+  border: none;
+  margin: 10px 0px;
+  letter-spacing: 0.15px;
+}
+.w-100{
+  width: 100%;
+}
 /* responsive header start */
 @media screen and (max-width: 900px) {
   .main-header {

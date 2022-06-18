@@ -137,6 +137,12 @@ select option {
   display: inline-block;
   cursor: pointer;
 }
+.header-btn-wrapper a{
+  color: #000;
+}
+.header-btn-wrapper a:hover{
+  color: #000;
+}
 .mobile-header-btn {
   background-color: #00ffff;
   color: #000;

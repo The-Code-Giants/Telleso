@@ -133,9 +133,10 @@ select option {
   border-radius: 20px;
   padding: 10px 16px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   display: inline-block;
   cursor: pointer;
+  border: none;
 }
 .header-btn-wrapper a{
   color: #000;

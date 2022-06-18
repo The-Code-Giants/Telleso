@@ -45,6 +45,12 @@ a {
 .w-100{
   width: 100%;
 }
+.pb-2{
+  padding-bottom: 16px;
+}
+.flex-1{
+  flex: 1;
+}
 /* responsive header start */
 @media screen and (max-width: 900px) {
   .main-header {

@@ -1,0 +1,52 @@
+@import "../../globalStyle.css";
+
+
+.get-started{
+  width: 100%;
+  height: 100vh;
+}
+.get-started .left{
+  background-color: #051626;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.get-started .right{
+  background: rgba(0, 255, 255, 0.06);;
+  /* padding: 150px 100px; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.right .form{
+  width: 70%;
+  margin: 0 auto;
+}
+.form label{
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+.right h2{
+  text-align: center;
+  padding-bottom: 80px;
+}
+.gap-2{
+  gap: 16px;
+}
+.text-center{
+  text-align: center;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.field input,
+textarea,
+select {
+  padding: 10px;
+  border-radius: 25px;
+  border: 1px solid lightgray;
+  outline: none;
+}

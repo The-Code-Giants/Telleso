@@ -7,11 +7,12 @@
 .webinar-section-inner{
     background-color: #d27b7b;
     display: flex;
-    padding: 0 20px 120px;
+    padding: 0 20px 150px;
+    border-radius: 5px;
 }
 
 .webinar-col{
-    width: 50%;
+    width: 60%;
     position: relative;
 }
 
@@ -38,17 +39,20 @@ line-height: 19px;
 letter-spacing: 0.01em;
 
 color: #FFFFFF;
+width: 500px;
 }
 
 
 
-
-.webinar-col img{
+.webinar-image-col{
+width: 40%;
+}
+.webinar-image-col img{
     width: 90%;
 }
 
 .webinar-speaker-images img{
-    width: 20% !important;
+    width: 15% !important;
     margin-left: -2px;
 }
 
@@ -61,7 +65,7 @@ color: #FFFFFF;
 .we-speak{
     
     position: absolute;
-    bottom: -100px;
+    bottom: -120px;
     left: 10px;
 }
 

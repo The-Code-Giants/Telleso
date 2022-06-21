@@ -241,7 +241,7 @@ footer {
 }
 
 .main-tagline p {
-  font-family: Inter;
+  padding-top: 15px;
   font-size: 18px;
   font-weight: 500;
   line-height: 26px;

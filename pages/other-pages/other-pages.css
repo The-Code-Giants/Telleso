@@ -1,0 +1,64 @@
+
+.watch-fsec {
+    background: linear-gradient(240deg, rgb(0 255 255 / 6%) 42%, #FFF9E9 42%);
+    padding: 80px;
+}
+
+
+.watch-fsec h2 {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.01em;
+    color: #0F0F10;
+    margin-bottom: 20px !important;
+}
+
+.watch-fsec p{
+    font-family: Inter;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: #0F0F10;
+}
+
+.shape-1 {
+
+    width: 252px;
+    height: 252px;
+    background: #93FFD838;
+    transform: rotate(-90deg);
+    border-radius: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 100%;
+    left: 47%;
+
+}
+
+.shape-2 {
+    width: 165px;
+    height: 165px;
+    background: #FFCBCB;
+    transform: rotate(-90deg);
+    border-radius: 20px;
+    z-index: 1;
+    position: absolute;
+    top: 149%;
+    left: 50%;
+    transform: rotate(45deg);
+}
+
+.watch-form {
+    background-color: white;
+    padding: 30px 40px;
+    display: inline-grid;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 16%);
+    border-radius: 15px;
+    z-index: 99;
+}

@@ -65,7 +65,7 @@ footer {
   font-size: 32px;
   line-height: 42px;
   letter-spacing: 0.01em;
-  padding-bottom: 15px;
+
 }
 .watch-line p {
   padding-top: 15px;
@@ -238,6 +238,8 @@ footer {
 }
 
 .main-tagline {
+  width: 600px;
+  margin-top: 25px;
 }
 
 .main-tagline p {
@@ -248,6 +250,7 @@ footer {
   letter-spacing: 0.15px;
   width: 460px;
   color: #000000;
+  margin: 10px 0;
 }
 
 .Demo-btn {
@@ -288,10 +291,35 @@ footer {
 }
 
 .sec-bg {
-  background-image: url(Images/Group\11658\\(1\).png);
-  background-position: center center;
-  background-size: cover;
-  padding: 100px 0px;
+    padding: 50px 0px;
+    background-color: rgba(255, 203, 203, 0.16);
+    position: relative;
+    overflow: hidden;
+}
+
+
+.about-eclipse1{
+  width: 550px;
+  height: 550px;
+  border-radius: 100%;
+  background-color: rgba(255, 203, 203, 0.3);
+  position: absolute;
+  top: -26px;
+  left: -206px;
+}
+
+.about-eclipse2{
+  width: 550px;
+  height: 550px;
+  border-radius: 100%;
+  background-color: rgba(255, 203, 203, 0.3);
+  position: absolute;
+  bottom: -26px;
+  right: -206px;
+}
+
+.about-tag{
+  width: 515px !important;
 }
 
 .about-sec {
@@ -349,15 +377,18 @@ footer {
 }
 
 /*Accordian*/
+.panel-group {
+  margin-bottom: 10px !important;
+}
+
 .faq-select {
-  margin: 40px 0 10px 0;
+  margin: 30px 0 10px 0;
 }
 .faq-sec ul {
   background-color: #002247;
 }
 
 .panel-faq {
-  margin-bottom: 20px;
   background-color: #fff0;
   border-radius: 0px;
   -webkit-box-shadow: none;
@@ -518,14 +549,14 @@ li.active.collapsed {
 }
 
 .c1 {
-  background-color: #ffcccc34;
+  background-color: rgba(255, 203, 203, 0.2)
 }
 
 .c2 {
-  background-color: #5c9ceb34;
+  background-color: rgba(93, 158, 235, 0.2);
 }
 .c3 {
-  background-color: #93ffd734;
+  background-color: rgba(147, 255, 216, 0.2);
 }
 
 .card-inner {

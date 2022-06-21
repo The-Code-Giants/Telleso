@@ -227,8 +227,9 @@ footer {
 }
 
 .main-tagline {
+  margin-top: 20px;
+  width: 600px;
 }
-
 .main-tagline p {
   font-family: Inter;
   font-size: 18px;
@@ -237,6 +238,7 @@ footer {
   letter-spacing: 0.15px;
   width: 460px;
   color: #000000;
+  margin: 15px 0;
 }
 
 .main-tagline h2 {
@@ -244,6 +246,7 @@ footer {
   font-size: 32px;
   font-weight: 500;
   color: #000000;
+  width: 500px;
 }
 
 .Demo-btn {
@@ -284,13 +287,29 @@ footer {
 }
 
 .sec-bg {
-  background-image: url(assets/images/ellipses/ellipseRight.png);
+  background-color: rgba(255, 203, 203, 0.16);
   background-position: center center;
   background-size: cover;
   padding: 100px 0px;
+  position: relative;
+  z-index: 9999;
 }
 
 .about-sec {
+}
+
+.about-eclipse1{
+
+  background-color: rgba(255, 203, 203, 0.3);
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  position: absolute;
+  top: -105px;
+  left: -240px;
+  z-index: -1;
+
+
 }
 
 .about-sec p {
@@ -352,50 +371,92 @@ footer {
   background-color: #002247;
 }
 
-.panel-faq {
-  margin-bottom: 20px;
-  background-color: #fff0;
-  border-radius: 0px;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  border-bottom: 1px solid black !important;
+.accordion-item{
+  border-radius: .4rem;
 }
 
-.panelfaq-body {
-  padding: 0px 0 10px 0;
+.accordion-item hr{
+  border: 1px solid #051626;
+  
+  margin-top: 10px;
+  margin-bottom: 10px;
+
 }
 
-.panel-group .panel {
-  border-radius: 0;
-  box-shadow: none;
-  border-color: #eeeeee;
-}
-
-.panel-default > .panel-heading {
-  padding: 0;
-  border-radius: 0;
-  color: #212121;
-}
-
-.panel-title {
-  font-size: 14px;
-}
-
-.panel-title > a {
-  display: block;
-  padding: 10px 0;
-  text-decoration: none;
+.accordion-link{
   font-family: Inter;
-  font-weight: 600;
+  font-size: 16px;
+  color: #051626;
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.accordion-link h3{
+  font-weight:600;
   font-size: 16px;
 }
 
-.more-less {
-  float: right;
-  color: #212121;
+.accordion-link i{
+  color: #e7d5ff;
+  padding: .5rem;
+  
 }
 
-.panel-default > .panel-heading + .panel-collapse > .panel-body {
+.accordion-link ul{
+  display:flex;
+  align-items: flex-end;
+  list-style-type: none;
+  margin-left: 25px;
+}
+
+.accordion-link li{
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.4);
+  padding: 0 0 1px 5px;
+}
+
+.accordion-link div{
+  display: flex;
+}
+
+.accordion-link .fa-angle-up{
+  display: none;
+  width: 15px;
+}
+
+.answer{
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  transition: max-height 650ms;
+}
+
+
+
+.answer p{
+  color: #051626;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  
+}
+
+.accordion-item:target .answer{
+  max-height: 20rem;
+}
+
+.accordion-item:target .accordion-link .fa-angle-down{
+  display: none;
+  width: 15px;
+}
+
+.accordion-item:target .accordion-link .fa-angle-up{
+  display: block;
+  width: 15px;
 }
 
 ul.faq-sec {

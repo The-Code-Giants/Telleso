@@ -28,10 +28,21 @@ body {
   font-size: 16px;
   line-height: 22px;
 }
+.pricing-tag-2 {
+  position: absolute;
+  bottom: -12px;
+  left: 9px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 22px;
+}
 .pricing-section1 .des {
   font-weight: 500;
   font-size: 18px;
   line-height: 26px;
+  color: #0F0F10;
+  letter-spacing: 0.01em;
+  padding-top: 10px;
 }
 .pricing-section1 .left-img {
   position: absolute;
@@ -56,6 +67,7 @@ body {
 .pricing-section2-header {
   gap: 15px;
   justify-content: center;
+  align-items: center;
 }
 .pricing-section2-header button {
   color: #000000;
@@ -71,7 +83,7 @@ body {
   letter-spacing: 0.15px;
 }
 .pricing-section2-header div {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 18px;
 }
@@ -104,11 +116,14 @@ body {
   border: 1px solid #00ffff;
 }
 .black-btn {
-  transition: all 1s !important;
+  transition: all 1s;
 }
 .cards-container .card:hover .black-btn {
   background-color: #00ffff;
   color: #000;
+}
+.cards-container .card:hover h4:first-child {
+  color: #00ffff;
 }
 .cards-container .card h4 {
   font-weight: 600;
@@ -137,14 +152,16 @@ body {
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
 }
-.pricing-section3-table .table h3{
+.pricing-section3-table .table h3 {
   font-weight: 500;
   font-size: 22px;
   line-height: 26px;
+  color: #0f0f10;
 }
-.pricing-section3-table .table p{
+.pricing-section3-table .table p {
   font-size: 14px;
   padding-top: 10px;
+  color: #505458;
 }
 .table-header > div:not(:first-child) {
   text-align: center;
@@ -187,5 +204,10 @@ li.active {
   font-weight: 700;
   font-size: 30px;
   line-height: 42px;
+}
+.panel-title i {
+  background: #ffcbcb;
+  padding: 5px;
+  border-radius: 30px;
 }
 /* section-4-end */

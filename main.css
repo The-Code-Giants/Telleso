@@ -461,7 +461,7 @@ li.active.collapsed {
 }
 
 .left {
-  font-family: Inter;
+  font-family: inherit;
   text-align: left;
   width: 100%;
 }

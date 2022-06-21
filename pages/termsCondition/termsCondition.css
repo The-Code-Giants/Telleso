@@ -31,16 +31,17 @@ body {
   flex: 0.6;
 }
 
-.left h5 {
+.paper .left h5 {
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 26px;
+  font-family: inherit !important;
 }
-.left ul {
+.paper .left ul {
   padding-left: 20px;
 }
-.left ul li {
+.paper .left ul li {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;

@@ -1,0 +1,273 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+}
+:root {
+  --dark-color: "#051626";
+}
+
+a {
+  text-decoration: none !important;
+  /* color: #000 !important; */
+}
+
+.flex {
+  display: flex;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.p-0 {
+  padding: 0;
+}
+.pl-0 {
+  padding-left: 0;
+}
+.pr-0 {
+  padding-right: 0;
+}
+.pl-2{
+  padding-left: 16px;
+}
+.pr-2{
+  padding-right: 16px;
+}
+.pr-100{
+  padding-right: 100px;
+}
+.pl-100{
+  padding-left: 100px;
+}
+/* responsive header start */
+@media screen and (max-width: 900px) {
+  .main-header {
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+  }
+  .header-links {
+    display: none;
+  }
+  .header-btn-wrapper {
+    display: none;
+  }
+  .humberger {
+    display: inline-flex;
+  }
+  .open {
+    position: absolute;
+    left: 0;
+    bottom: -203px;
+    display: flex;
+    flex-direction: column;
+    background-color: #051626;
+    width: 100%;
+    padding: 10px;
+  }
+  .mobile-header-btn {
+    display: inline-block;
+  }
+}
+
+/* header start */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #051626;
+  color: #fff;
+  width: 100%;
+  padding: 23px 100px;
+}
+.header-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header-links .link {
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.up {
+  display: none;
+}
+.link:hover .up {
+  display: block;
+}
+.link:hover .down {
+  display: none;
+}
+select {
+  background: none;
+  color: #fff;
+  border: none;
+}
+select option {
+  background-color: #051626;
+}
+.header-btn-wrapper {
+  background-color: #00ffff;
+  color: #000;
+  border-radius: 20px;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+  cursor: pointer;
+}
+.mobile-header-btn {
+  background-color: #00ffff;
+  color: #000;
+  border-radius: 20px;
+  padding: 8px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+  cursor: pointer;
+  display: none;
+}
+.humberger {
+  width: 35px;
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  display: none;
+}
+.humberger .line {
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.open {
+  display: none;
+}
+.black-btn {
+  background-color: #051626;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none;
+  margin: 10px 0px;
+  letter-spacing: 0.15px;
+}
+header {
+  position: relative;
+}
+.sub-header {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  padding: 40px 100px;
+  z-index: 99999 !important;
+  display: none;
+}
+.open-sub-header {
+  display: block;
+}
+.sub-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.sub-header .container .col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.sub-header .container .col .page-link {
+  padding: 10px;
+  cursor: pointer;
+}
+.page-link a {
+  color: #000;
+}
+.sub-header .container .col .page-link:hover {
+  background: #e9ecf0;
+  border-radius: 10px;
+}
+.container .col-2 {
+  margin-top: 40px;
+}
+.container .col-3 {
+  margin-left: 50px;
+  cursor: pointer;
+}
+.col h2 {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  padding: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.col h3 {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  line-height: 22px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.col p {
+  font-size: 14px;
+  letter-spacing: 0.01em;
+}
+/* header end */
+/* responsive header end */ /* responsive header start */
+@media screen and (max-width: 900px) {
+  .main-header {
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+  }
+  .header-links {
+    display: none;
+  }
+  .header-btn-wrapper {
+    display: none;
+  }
+  .humberger {
+    display: inline-flex;
+  }
+  .open {
+    position: absolute;
+    left: 0;
+    bottom: -203px;
+    display: flex;
+    flex-direction: column;
+    background-color: #051626;
+    width: 100%;
+    padding: 10px;
+    z-index: 1;
+  }
+  .mobile-header-btn {
+    display: inline-block;
+  }
+}
+/* responsive header end */

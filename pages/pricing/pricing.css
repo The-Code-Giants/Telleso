@@ -1,0 +1,191 @@
+@import "../../globalStyle.css";
+@import "../../main.css";
+@import "../productOverview/productOverview.css";
+
+body {
+  background-color: #fff !important;
+}
+/* section-1-start */
+.pricing-section1 {
+  background-color: #fff9e9;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pricing-tag-wrapper {
+  position: relative;
+  margin-bottom: 15px;
+}
+.pricing-tag {
+  position: absolute;
+  bottom: -12px;
+  left: 9px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+.pricing-section1 .des {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+}
+.pricing-section1 .left-img {
+  position: absolute;
+  top: 40px;
+  left: 100px;
+}
+
+.pricing-section1 .right-img {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+}
+/* section-1-start end */
+
+/* section-2-start end */
+.pricing-section2 {
+  width: 100%;
+  height: 850px;
+  background: rgba(147, 255, 216, 0.16);
+  padding: 50px 100px;
+}
+.pricing-section2-header {
+  gap: 15px;
+  justify-content: center;
+}
+.pricing-section2-header button {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  padding: 10px 20px;
+  background: rgba(0, 255, 255, 0.06);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  border: none;
+  margin: 10px 0px;
+  letter-spacing: 0.15px;
+}
+.pricing-section2-header div {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+.cards-container {
+  margin: 50px 0;
+  display: flex;
+}
+.cards-container .card {
+  padding: 20px;
+  width: 350px;
+  border: 1px solid lightgray;
+  position: relative;
+}
+.cards-container .card::before {
+  content: "";
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  background-color: #00ffff;
+  border-radius: 10px 10px 0 0;
+  transform: scale(0);
+  transition: all 0.5s;
+}
+.cards-container .card:hover::before {
+  transform: scale(1);
+}
+.cards-container .card:hover {
+  border: 1px solid #00ffff;
+}
+.black-btn {
+  transition: all 1s !important;
+}
+.cards-container .card:hover .black-btn {
+  background-color: #00ffff;
+  color: #000;
+}
+.cards-container .card h4 {
+  font-weight: 600;
+}
+.card-detail h5 {
+  font-weight: 600;
+}
+.card-item {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+/* section-2-start end */
+/* section-3-start start */
+.pricing-section3 {
+  width: 100%;
+  height: 1400px;
+  background: rgba(93, 158, 235, 0.07);
+  padding: 50px 100px;
+}
+.pricing-section3-table {
+  margin-top: 50px;
+}
+.pricing-section3-table .table {
+  display: flex;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.pricing-section3-table .table h3{
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+}
+.pricing-section3-table .table p{
+  font-size: 14px;
+  padding-top: 10px;
+}
+.table-header > div:not(:first-child) {
+  text-align: center;
+  padding: 0 10px;
+  width: 200px;
+}
+.table > div:not(:first-child) {
+  text-align: center;
+  padding: 0 10px;
+  width: 200px;
+  border-right: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+}
+/* section-3-start end */
+/* section-4-start  */
+.pricing-section4 {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff9e9;
+  padding: 50px 100px;
+}
+ul.faq-sec {
+  float: left;
+  padding: 0;
+  background-color: none;
+  border-radius: none;
+  border: none;
+}
+li.active {
+  width: 0;
+}
+.pricing-section4 .tag {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.pricing-section4 .tag h3 {
+  position: absolute;
+  top: 5px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+}
+/* section-4-end */

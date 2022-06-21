@@ -1,0 +1,52 @@
+@import "../../../globalStyle.css";
+@import "../../../main.css";
+@import "../../productOverview/productOverview.css";
+@import "../../contact/contact.css";
+
+body {
+  background-color: #fff !important;
+}
+
+/* header start */
+
+.main-header {
+  padding: 24px 50px;
+  justify-content: space-between;
+}
+.header-logo {
+  align-items: center;
+  gap: 20px;
+}
+/* header end */
+
+/* header section start */
+.heading-section {
+  background-color: #fff9e9;
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.heading-section h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.01em;
+}
+.form-section{
+  width: 100%;
+  height: 500px;
+  background: rgba(93, 158, 235, 0.2);
+}
+.form-section{
+  position: relative;
+  padding: 0 100px;
+}
+.contact-form{
+  position: absolute;
+  top: -100px;
+  left: 180px;
+}
+/* header section  end */

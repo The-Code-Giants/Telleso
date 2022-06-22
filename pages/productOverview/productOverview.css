@@ -20,26 +20,31 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 56px;
-  font-family: 'Cambria';
+  font-family: "Cambria";
+  color: #0f0f10;
 }
 .upper-part-description {
   font-size: 18px;
   line-height: 26px;
   width: 728px;
   text-align: center;
+  padding-top: 15px;
 }
 .upper-part-action {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .link-btn {
   display: flex;
   align-items: center;
   gap: 5px;
   cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
 }
 .section1-lower-part {
   display: flex;
@@ -52,7 +57,7 @@
   flex: 0.4;
 }
 .lower-part-img {
-  flex: 0.5;
+  flex: 0.6;
 }
 .lower-part-img img {
   width: 100%;
@@ -81,14 +86,16 @@
   width: 100%;
   height: 100vh;
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: center;
   flex: 1;
   padding: 55px 100px;
+  gap: 50px;
 }
 .section2 {
   background: rgba(255, 203, 203, 0.16);
   position: relative;
+  height: auto;
 }
 .section2-ellipse {
   position: absolute;
@@ -97,7 +104,7 @@
   z-index: -1;
 }
 .content-part {
-  flex: 0.4;
+  /* flex: 0.4; */
 }
 .img-part {
   flex: 0.6;
@@ -123,6 +130,7 @@
 .section3 {
   background: rgba(147, 255, 216, 0.2);
   position: relative;
+  height: auto;
 }
 .section3-ellipse {
   position: absolute;
@@ -141,9 +149,9 @@
 .section-3-footer {
   width: 100%;
   height: 253px;
-  padding: 53px 193px;
+  padding: 53px 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: #051626;
   flex: 1;
@@ -199,23 +207,23 @@
   position: relative;
   z-index: -2;
 }
-.section-4 .circle{
+.section-4 .circle {
   position: absolute;
   top: 90px;
   right: 240px;
 }
-.section-4-inner{
+.section-4-inner {
   position: absolute;
   top: 500px;
   left: 0;
 }
-.section-4-inner-b{
+.section-4-inner-b {
   height: auto;
   position: absolute;
   bottom: 10px;
   left: 0;
 }
-.bg-ellipse{
+.bg-ellipse {
   position: absolute;
   left: -160px;
   top: -33px;

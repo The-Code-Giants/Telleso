@@ -5,11 +5,15 @@
   margin: 0;
   font-family: "Inter", sans-serif;
   text-decoration: none;
+  letter-spacing: 0.01em;
 }
 :root {
   --dark-color: "#051626";
 }
 
+p,h1,h2,h3,h4,h5,h6{
+  color: #0F0F10;
+}
 a {
   text-decoration: none !important;
   color: inherit !important;

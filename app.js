@@ -12,10 +12,28 @@ humberger.addEventListener("click", () => {
 });
 link1.addEventListener("click", () => {
   subHeader1.classList.toggle("open-sub-header");
+  subHeader2.classList.remove("open-sub-header");
+  subHeader3.classList.remove("open-sub-header");
 });
 link2.addEventListener("click", () => {
   subHeader2.classList.toggle("open-sub-header");
+  subHeader1.classList.remove("open-sub-header");
+  subHeader3.classList.remove("open-sub-header");
 });
 link3.addEventListener("click", () => {
   subHeader3.classList.toggle("open-sub-header");
+  subHeader1.classList.remove("open-sub-header");
+  subHeader2.classList.remove("open-sub-header");
 });
+
+//for outside click
+// document.addEventListener("mouseup", (e) => {
+//   const insideSide1 = subHeader1.contains(e.target);
+//   const insideSide2 = subHeader2.contains(e.target);
+//   const insideSide3 = subHeader3.contains(e.target);
+//   if (!insideSide1 || !insideSide2 || !insideSide3) {
+//       subHeader1.classList.remove("open-sub-header");
+//       subHeader2.classList.remove("open-sub-header");
+//       subHeader3.classList.remove("open-sub-header");
+//   }
+// });

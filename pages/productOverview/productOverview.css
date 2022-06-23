@@ -281,14 +281,27 @@ footer {
 
 /* footer end */
 
-.img-part{
+.img-part {
   flex: 0.4;
 }
 /* responsive  */
-
+.section-3-footer-textBox input {
+  padding: 10px 16px;
+  border-radius: 10px 0 0 10px;
+  outline: none;
+  border: none;
+  width: 380px;
+}
 @media screen and (min-width: 1600px) {
 }
 @media screen and (max-width: 1300px) {
+  .section-3-footer-textBox input {
+    padding: 10px 16px;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    border: none;
+    width: 345px;
+  }
   .upper-part-header {
     font-size: 39px;
   }
@@ -299,17 +312,27 @@ footer {
     padding: 55px 80px;
     gap: 30px;
   }
-  .img-part img{
+  .img-part img {
     width: 100%;
   }
-  .img-part{
+  .img-part {
     flex: 1;
   }
-  .content-part{
+  .content-part {
     flex: 1;
   }
 }
 @media screen and (max-width: 1200px) {
+  .section-3-footer-content h1 {
+    font-size: 28px;
+    line-height: 36px;
+}
+  .section-3-footer-textBox input {
+    width: 300px;
+  }
+  .section-3-footer-textBox button {
+    width: 100px;
+  }
   .upper-part-header {
     font-size: 39px;
   }
@@ -327,6 +350,16 @@ footer {
 }
 
 @media screen and (max-width: 1000px) {
+  .section-3-footer-content h1 {
+    font-size: 20px;
+    line-height: 28px;
+}
+  .section-3-footer-textBox input {
+    width: 250px;
+  }
+  .section-3-footer-textBox button {
+    width: 100px;
+  }
   .section1 {
     height: 700px;
     padding: 55px 50px;

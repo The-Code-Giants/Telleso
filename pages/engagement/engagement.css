@@ -8,11 +8,8 @@ body {
 /* section-1-start */
 .section-1 {
   background-color: #fff9e9;
-  height: 100vh;
+  height: auto;
   width: 100%;
-}
-.img-part{
-  flex: 0.4;
 }
 .screen1-ellipse {
   position: absolute;
@@ -28,7 +25,13 @@ body {
 .section-3-eng {
   background: rgba(255, 203, 203, 0.16);
   position: relative;
-  height: 70vh;
+  height: auto;
+}
+.section-2-eng .screen2-e-blue {
+  width: 17%;
+}
+.section-2-eng .img-part img {
+  margin-top: -100px;
 }
 .screen2-e-blue {
   position: absolute;
@@ -48,7 +51,10 @@ body {
 .section-4 {
   background: #fff;
   position: relative;
-  height: 70vh;
+  height: auto;
+}
+.section-4-eng {
+  justify-content: space-between;
 }
 .pb {
   padding-top: 120px;
@@ -78,14 +84,14 @@ body {
   top: -160px;
   left: -100px;
   z-index: -1;
+  width: 50% !important;
 }
 /* section 5  end*/
 
 /* section-6 start */
-.combine-section{
+.combine-section {
   /* background-color: #fff9e9; */
   z-index: -2;
-
 }
 
 .culture-amplification-ellipse {
@@ -95,3 +101,22 @@ body {
   z-index: -1;
 }
 /* section-6 end*/
+
+/* responsive  */
+
+@media screen and (max-width: 1600px) {
+}
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1200px) {
+  .ellipse-tri-red-up {
+    top: -125px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .ellipse-tri-red-up {
+    top: -75px;
+  }
+}
+@media screen and(max-width:900px) {
+}

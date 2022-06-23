@@ -281,6 +281,9 @@ footer {
 
 /* footer end */
 
+.img-part{
+  flex: 0.4;
+}
 /* responsive  */
 
 @media screen and (min-width: 1600px) {
@@ -288,6 +291,22 @@ footer {
 @media screen and (max-width: 1300px) {
   .upper-part-header {
     font-size: 39px;
+  }
+  .new-section {
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    padding: 55px 80px;
+    gap: 30px;
+  }
+  .img-part img{
+    width: 100%;
+  }
+  .img-part{
+    flex: 1;
+  }
+  .content-part{
+    flex: 1;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -309,7 +328,7 @@ footer {
 
 @media screen and (max-width: 1000px) {
   .section1 {
-    height: 750px;
+    height: 700px;
     padding: 55px 50px;
   }
   .lower-part-header {

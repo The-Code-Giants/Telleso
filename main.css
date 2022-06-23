@@ -1142,6 +1142,18 @@ li.active.collapsed {
     line-height: 48px;
   }
 }
+@media screen and (max-width: 1350px) {
+  .watch-line h2 {
+    font-size: 31px;
+    line-height: 36px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .watch-line h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
 @media screen and (max-width: 1200px) {
   .listen-btn {
     margin-top: 5px;
@@ -1180,7 +1192,7 @@ li.active.collapsed {
     font-size: 14px;
   }
   .watch-line h2 {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 36px;
   }
 }
@@ -1213,9 +1225,9 @@ li.active.collapsed {
     padding-top: 0;
   }
   .watch-line h2 {
-    font-size: 21px;
-    line-height: 36px;
-  }
+    font-size: 16px;
+    line-height: 28px;
+}
 }
 @media only screen and (max-width: 900px) {
   .main-tagline p {

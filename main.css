@@ -1266,3 +1266,26 @@ li.active.collapsed {
     display: none !important;
   }
 }
+
+.other-pink{
+  background-color: #fff5f5 !important;
+}
+
+.newsletter-form > form > input {
+  line-height: inherit;
+  width: 50%;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 14px;
+  font-family: 'Inter';
+  font-weight: 400;
+  color: #505458;
+}
+
+.newsletter-form > form > input[type="submit"] {
+width: 20%;
+margin-left: -10px;
+background-color: black;
+color: white;
+border-radius: 0 10px 10px 0px;

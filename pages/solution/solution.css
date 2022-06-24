@@ -1,6 +1,13 @@
 .solution-bg{
     background-color: #FFF9E9;
-    padding: 50px 80px;
+    padding: 50px 80px 10px;
+}
+
+.section {
+    background-color: rgb(255 203 203 / 20%);
+    padding-top: 5px;
+    padding-bottom: 0;
+
 }
 
 .section1{
@@ -9,6 +16,10 @@
     flex-direction: column;
     width: 50%;
     justify-content: center;
+    position: relative;
+    
+    margin-bottom: 75px;
+
 }
 
 .solution2{
@@ -22,6 +33,7 @@
     font-size: 40px;
     line-height: 52px;
     color: #000000;
+    width: 525px;
 }
 
 .solution2 p{
@@ -38,22 +50,25 @@
 
     width: 375px;
     height: 375px;
-    margin-left: 2%;
-    margin-top: -73%;
     background: rgba(210, 123, 123, 0.2);
     transform: rotate(-90deg);
     border-radius: 100% 100% 0 0;
     z-index: 1;
+    position: absolute;
+    top: 10px;
 
 }
 
 .e2{
-    margin-top: -13%;
-    margin-left: 66%;
     z-index: 1;
     width: 200px;
     height: 200px;
     border-radius: 100% 0 0 0;
+    background: rgba(210, 123, 123, 0.2);
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: -80px;
+    right: 5px;
 }
 
 .solution-circle{
@@ -62,10 +77,10 @@
     width: 375px;
     border-radius: 50%;
     border: 90px solid #f6e0d3;
-    background-color: #fff9e9;
+    background-color: #fff9e900;
     position: absolute;
-    left: 80%;
-    top: 130%;
+    bottom: -75px;
+    right: -225px;
 
 }
 
@@ -90,7 +105,7 @@ img.img-2 {
 }
 
 .col-left{
-    margin-left: 85px;
+    margin-left: 125px;
 }
 
 .col-solution h2{
@@ -214,14 +229,12 @@ margin-top: -35%;
     width: 280px;
     height: 300px;
     /* left: -210px; */
-    top: 2237px;
     background: rgba(210, 123, 123, 0.2);
     border-radius: 100% 0% 0 0%;
     /* margin-bottom: -210px; */
     position: absolute;
-    /* left: 9%; */
-    top: 305%;
-    right: 6%;
+    bottom: -85px;
+    right: 0px;
 }
 
 
@@ -234,6 +247,6 @@ margin-top: -35%;
     border-radius: 0 100% 0 0;
     /* margin-bottom: -210px; */
     position: absolute;
-    left: 6%;
-    top: 335%;
+    left: 0px;
+    top: -90px;
 }

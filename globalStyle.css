@@ -121,6 +121,10 @@ a {
   align-items: center;
   gap: 6px;
 }
+
+.header-link .links a{
+  color: #fff !important;
+}
 .up {
   display: none;
 }
@@ -222,6 +226,10 @@ header {
 }
 .page-link a {
   color: #000;
+}
+
+.page-link a:hover{
+  color:#000;
 }
 .sub-header .container .col .page-link:hover {
   background: #e9ecf0;

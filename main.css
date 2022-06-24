@@ -7,6 +7,7 @@
 body {
   font-family: "Cambria", "sans-serif";
   color: #000000;
+  overflow-x: hidden;
 }
 body h1 {
   font-family: "Cambria", "sans-serif";
@@ -15,6 +16,14 @@ body h1 {
   line-height: 66px;
   color: #000000;
   letter-spacing: 0.01em;
+}
+
+a{
+  color:#ffffff;
+}
+
+a:hover{
+  color:#ffffff
 }
 
 .h1,
@@ -40,6 +49,7 @@ h3 {
 }
 .foot-above {
   background-color: #051626;
+
 }
 footer {
   background-color: #051626;
@@ -589,6 +599,7 @@ li.active.collapsed {
   align-content: center;
   padding: 50px;
   border-radius: 0 0 60% 60%/0 0 60% 60%;
+  margin: -5px 0;
 }
 .request-bg h2 {
   width: 525px;
@@ -1255,3 +1266,26 @@ li.active.collapsed {
     display: none !important;
   }
 }
+
+.other-pink{
+  background-color: #fff5f5 !important;
+}
+
+.newsletter-form > form > input {
+  line-height: inherit;
+  width: 50%;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 14px;
+  font-family: 'Inter';
+  font-weight: 400;
+  color: #505458;
+}
+
+.newsletter-form > form > input[type="submit"] {
+width: 20%;
+margin-left: -10px;
+background-color: black;
+color: white;
+border-radius: 0 10px 10px 0px;

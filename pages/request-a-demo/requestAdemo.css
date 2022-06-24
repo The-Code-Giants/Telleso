@@ -1,7 +1,7 @@
 
 .request-demo{
     background: linear-gradient(240deg, rgb(0 255 255 / 6%) 43%, #FFF9E9 40%);
-    padding: 100px 120px;
+    padding: 100px 80px;
 }
 .demo-sections{
     display: flex;
@@ -10,8 +10,9 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    width: 50%;
-    justify-content: end;
+    width: 65%;
+    justify-content: center;
+    padding-right: 120px;
 }
 
 .request-section h2{
@@ -71,24 +72,22 @@ padding: 30px 0;
     border-radius: 100%;
     z-index: 1;
     position: absolute;
-    top: 38%;
-    left: 48%;
-
+    top: 8%;
+    left: -25%;
 }
 
 
 .eclipse-req2{
 
-
     width: 200px;
     height: 200px;
     background: #d27b7b30;
     transform: rotate(-90deg);
-    border-radius: 0% 100% 0% 0%;77
+    border-radius: 0% 100% 0% 0%;
     z-index: 1;
     position: absolute;
-    top: 82%;
-    left: 45%;
+    top: 62%;
+    left: -30%;
 
 }
 
@@ -96,8 +95,9 @@ padding: 30px 0;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    width: 43%;
+    width: 50%;
     justify-content: end;
+    position: relative;
 }
 .submit-form{
 background-color: white;

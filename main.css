@@ -599,7 +599,10 @@ li.active.collapsed {
   align-content: center;
   padding: 50px;
   border-radius: 0 0 60% 60%/0 0 60% 60%;
-  margin: -5px 0;
+  margin: 0;
+  border: 1px solid #fff5f5;
+  margin-bottom: 40px;
+
 }
 .request-bg h2 {
   width: 525px;
@@ -633,6 +636,7 @@ li.active.collapsed {
 
 .footer-list h5 {
   font-weight: 500;
+  color: #ffffff;
 }
 
 .footer-list ul {
@@ -872,6 +876,7 @@ li.active.collapsed {
 .newsletter-section {
   background-color: #fff9e9;
   padding: 0 80px;
+  border: 1px solid #fff9e9;
 }
 
 .newsletter-column {

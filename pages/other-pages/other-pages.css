@@ -13,7 +13,8 @@
     line-height: 47px;
     letter-spacing: 0.01em;
     color: #0F0F10;
-    margin-bottom: 20px !important;
+    margin-bottom: 30px !important;
+    width: 400px;
 }
 
 .watch-fsec p{
@@ -25,6 +26,16 @@
     line-height: 26px;
     letter-spacing: 0.01em;
     color: #0F0F10;
+    width: 500px;
+}
+
+.allign-icon-section{
+    margin-top: 20px;
+    width: 500px;
+}
+
+.allign-icon-section p{
+    width: 525px !important;
 }
 
 .shape-1 {
@@ -36,10 +47,10 @@
     border-radius: 100%;
     z-index: 1;
     position: absolute;
-    top: 100%;
-    left: 47%;
-
+    top: 10%;
+    left: -25%;
 }
+
 
 .shape-2 {
     width: 165px;
@@ -49,8 +60,8 @@
     border-radius: 20px;
     z-index: 1;
     position: absolute;
-    top: 149%;
-    left: 50%;
+    top: 65%;
+    left: -15%;
     transform: rotate(45deg);
 }
 

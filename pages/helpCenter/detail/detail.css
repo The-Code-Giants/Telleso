@@ -98,3 +98,20 @@ body {
   padding-top: 20px;
   margin-top: 100px;
 }
+
+@media screen and (max-width: 1200px) {
+  .info-detail ul {
+    flex: 0.5;
+  }
+  .section{
+    padding: 50px;
+  }
+  .main .article-detail {
+    flex: 0.5;
+}
+  .main .article{
+    flex: 0.5;
+}
+}
+@media screen and (max-width: 900px) {
+}

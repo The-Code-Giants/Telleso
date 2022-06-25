@@ -40,7 +40,7 @@ body {
   font-weight: 500;
   font-size: 18px;
   line-height: 26px;
-  color: #0F0F10;
+  color: #0f0f10;
   letter-spacing: 0.01em;
   padding-top: 10px;
 }
@@ -211,3 +211,75 @@ li.active {
   border-radius: 30px;
 }
 /* section-4-end */
+
+/* responsive  */
+
+@media screen and (max-width: 1600px) {
+  .pricing-section1,
+  .pricing-section2,
+  .pricing-section3,
+  .pricing-section4 {
+    height: auto;
+  }
+  .panel-title > a {
+    padding: 15px 0;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .table > div:not(:first-child) {
+    width: 170px;
+  }
+  .table-header > div:not(:first-child) {
+    width: 170px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .pricing-section1 .left-img,
+  .right-img {
+    width: 11%;
+  }
+  .pricing-tag {
+    bottom: -2px;
+  }
+  .pricing-section2 {
+    padding: 50px 30px;
+  }
+  .table > div:not(:first-child) {
+    width: 140px;
+  }
+  .table-header > div:not(:first-child) {
+    width: 140px;
+  }
+  .panel-title > a {
+    padding: 15px 0;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .table > div:not(:first-child) {
+    width: 100px;
+  }
+  .table-header > div:not(:first-child) {
+    width: 100px;
+  }
+  .table-header div h4 {
+    font-size: 14px !important;
+  }
+  .pricing-section3-table .table h3 {
+    font-size: 18px;
+  }
+  .pricing-section3-table .table p {
+    font-size: 12px;
+    padding-top: 5px;
+  }
+  .pricing-tag-2 {
+    bottom: 0px;
+    font-size: 24px;
+  }
+  .pricing-section4 .tag h3 {
+    top: 9px;
+    font-size: 24px;
+  }
+  
+}

@@ -130,6 +130,14 @@ body {
   }
 }
 @media screen and (max-width: 1200px) {
+  .tagline{
+    position: relative;
+  }
+  .tagline p{
+    position: absolute;
+    bottom: -2px;
+    left: 20px;
+  }
   .ellipse-screen5-intra {
     left: -80px;
   }

@@ -271,7 +271,10 @@ header {
 }
 @media screen and (max-width: 1300px) {
   .sub-header {
-    padding: 50px;
+    padding: 20px;
+  } 
+  .main-header{
+    padding:23px 50px;
   }
   .container {
     width: 100% !important;

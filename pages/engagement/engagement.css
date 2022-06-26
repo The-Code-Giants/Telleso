@@ -109,6 +109,14 @@ body {
 @media screen and (max-width: 1400px) {
 }
 @media screen and (max-width: 1200px) {
+  .tagline{
+    position: relative;
+  }
+  .tagline p{
+    position: absolute;
+    bottom: -2px;
+    left: 20px;
+  }
   .ellipse-tri-red-up {
     top: -125px;
   }

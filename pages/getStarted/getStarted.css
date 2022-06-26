@@ -50,3 +50,18 @@ select {
   border: 1px solid lightgray;
   outline: none;
 }
+
+/* responsive  */
+
+@media screen and (max-width: 1200px){
+  .get-started .left img:first-child{
+    width: 60%;
+  }
+  .get-started .left img{
+    width: 80%;
+  }
+  .first-row{
+    flex-direction: column;
+    gap: 0;
+  }
+}

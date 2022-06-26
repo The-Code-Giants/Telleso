@@ -11,8 +11,9 @@ body {
   height: 100vh;
   width: 100%;
 }
-.img-part{
-  flex: 0.4;
+.img-part,
+.content-part {
+  flex: 1;
 }
 .screen1-ellipse {
   position: absolute;
@@ -26,9 +27,13 @@ body {
 /* section-2 and 3 start */
 .section-2-workplace,
 .section-3-workplace {
-  background: #FFF9E9;
+  background: #fff9e9;
   position: relative;
   height: 70vh;
+  overflow-x: clip;
+}
+.section-2-workplace .img-part img {
+  margin-right: -100px;
 }
 .screen2-e-blue {
   position: absolute;
@@ -82,10 +87,9 @@ body {
 /* section 5  end*/
 
 /* section-6 start */
-.combine-section{
-  /* background-color: #fff9e9; */
+.combine-section {
+  background-color: rgba(255, 203, 203, 0.16);
   z-index: -2;
-
 }
 
 .screen5-b-workplace {
@@ -93,6 +97,7 @@ body {
   top: -72px;
   left: -166px;
   z-index: -1;
+  width: 55% !important;
 }
 .screen6-bg-workplace {
   position: absolute;
@@ -101,3 +106,41 @@ body {
   z-index: -1;
 }
 /* section-6 end*/
+
+/* responsive  */
+
+@media screen and (max-width: 1600px) {
+}
+@media screen and (max-width: 1400px) {
+  .section-1,
+  .section-2-workplace,
+  .section-3-workplace,
+  .section-4-workplace,
+  .section-5-workplace,
+  .section-6-workplace {
+    height: auto;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .section-2-workplace .img-part img {
+    width: auto !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .tagline{
+    position: relative;
+  }
+  .tagline p{
+    position: absolute;
+    bottom: -2px;
+    left: 20px;
+  }
+  .section-2-workplace .img-part img {
+    width: 100% !important;
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 1000px) {
+}
+@media screen and(max-width:900px) {
+}

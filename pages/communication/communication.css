@@ -14,6 +14,15 @@
   top: 27px;
   z-index: -1;
 }
+.tagline p {
+  font-family: inter;
+  font-size: 16px;
+  text-transform: capitalize;
+  margin: -17px 0 0 25px;
+  letter-spacing: 0.15px;
+  font-weight: 600;
+  color: #5d9eeb;
+}
 
 /* section-1-start end */
 
@@ -35,6 +44,20 @@
   bottom: -20px;
   left: 3px;
   z-index: -1;
+}
+.section-2 .screen2-e-blue {
+  width: 20%;
+}
+.section-2 .img-part img:not(:first-child) {
+  width: 40%;
+}
+.section-5 .img-part img:not(:first-child) {
+  width: 75%;
+}
+.section-5,
+.section-6 {
+  background: rgba(93, 158, 235, 0.16);
+  width: 100%;
 }
 /* section-2 and 3  end */
 
@@ -60,3 +83,86 @@
   z-index: -1;
 }
 /* section-4  end*/
+
+/* responsive  */
+@media screen and (max-width: 1600px) {
+  .section-1,
+  .section-2,
+  .section-3,
+  .section-4 {
+    height: auto;
+  }
+  .main-tagline {
+    width: 640px;
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main-tagline {
+    width: auto;
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .screen4-a-ellipse {
+    position: absolute;
+    bottom: 20px;
+    left: -100px;
+    z-index: -1;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .tagline{
+    position: relative;
+  }
+  .tagline p{
+    position: absolute;
+    bottom: -2px;
+    left: 20px;
+  }
+  .main-tagline {
+    width: auto;
+    margin-top: 25px;
+  }
+  .content-part p {
+    font-size: 14px;
+  }
+  .screen4-ellispse-up {
+    position: absolute;
+    top: -55px;
+    left: 90px;
+    z-index: -1;
+  }
+  .screen4-a-ellipse {
+    position: absolute;
+    bottom: 20px;
+    left: -100px;
+    z-index: -1;
+  }
+  .section-1 .content-part h1{
+    font-size: 34px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .section-1 .content-part h1{
+    font-size: 28px;
+  }
+  .main-tagline {
+    width: 400px;
+    margin-top: 25px;
+  }
+  .section-5 .img-part img:not(:first-child) {
+    width: 65%;
+  }
+  .screen4-ellispse-up {
+    position: absolute;
+    top: -45px;
+    left: 90px;
+    z-index: -1;
+  }
+}
+@media screen and (max-width: 900px) {
+  .section-1 .content-part h1{
+    font-size: 25px;
+  }
+}

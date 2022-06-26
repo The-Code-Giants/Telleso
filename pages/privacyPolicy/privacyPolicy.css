@@ -79,7 +79,7 @@ body {
   letter-spacing: 0.01em;
   padding-top: 20px;
 }
-.para p a{
+.para p a {
   color: #00ffff !important;
 }
 .para ul {
@@ -91,15 +91,29 @@ body {
   line-height: 26px;
   letter-spacing: 0.01em;
 }
-.privacy-img{
+.privacy-img {
   position: absolute;
   top: -40px;
   right: -50px;
 }
 
-.privacy-ellipse{
+.privacy-ellipse {
   position: absolute;
   top: 600px;
   left: 0;
 }
 /* main end */
+
+/* responsive  */
+
+@media screen and (max-width: 1200px) {
+  .main {
+    padding: 50px 30px;
+  }
+  .paper {
+    padding: 90px 30px 90px 30px;
+  }
+  .privacy-img {
+    width: 40%;
+ }
+}

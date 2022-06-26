@@ -227,6 +227,12 @@ li.active {
   }
 }
 @media screen and (max-width: 1300px) {
+  .card-info{
+    height: 100px;
+  }
+  .card-info-last{
+    height: 130px;
+  }
   .table > div:not(:first-child) {
     width: 170px;
   }
@@ -235,6 +241,7 @@ li.active {
   }
 }
 @media screen and (max-width: 1200px) {
+  
   .pricing-section1 .left-img,
   .right-img {
     width: 11%;

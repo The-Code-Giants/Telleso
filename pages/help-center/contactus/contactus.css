@@ -1,7 +1,7 @@
 @import "../../../globalStyle.css";
 @import "../../../main.css";
-@import "../../productOverview/productOverview.css";
-@import "../../contact/contact.css";
+@import "../../why-telleso/productOverview/productOverview.css";
+@import "../contact/contact.css";
 
 body {
   background-color: #fff !important;

@@ -1,6 +1,6 @@
-@import "../../globalStyle.css";
-@import "../../main.css";
-@import "../productOverview/productOverview.css";
+@import "../../../globalStyle.css";
+@import "../../../main.css";
+@import "../../why-telleso/productOverview/productOverview.css";
 
 body {
   background-color: #fff !important;

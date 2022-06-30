@@ -10,6 +10,7 @@
   justify-content: center;
   flex-direction: column;
   padding: 55px 100px;
+  gap: 30px;
 }
 .section1-upper-part {
   display: flex;
@@ -322,6 +323,9 @@ footer {
   }
 }
 @media screen and (max-width: 1200px) {
+  .section1{
+    gap: 10px;
+  }
   .section-3-footer-textBox {
     flex: 0.5;
     flex-wrap: nowrap;

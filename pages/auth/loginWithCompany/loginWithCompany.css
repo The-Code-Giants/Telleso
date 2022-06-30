@@ -1,40 +1,39 @@
-@import "../../globalStyle.css";
+@import "../../../globalStyle.css";
 
-
-.get-started{
+.get-started {
   width: 100%;
   height: 100vh;
 }
-.get-started .left{
+.get-started .left {
   background-color: #051626;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
 }
-.get-started .right{
-  background: rgba(0, 255, 255, 0.06);;
+.get-started .right {
+  background: rgba(0, 255, 255, 0.06);
   /* padding: 150px 100px; */
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-.right .form{
+.right .form {
   width: 70%;
   margin: 0 auto;
 }
-.form label{
+.form label {
   font-weight: 600;
   padding-bottom: 5px;
 }
-.right h2{
+.right h2 {
   text-align: center;
   padding-bottom: 80px;
 }
-.gap-2{
+.gap-2 {
   gap: 16px;
 }
-.text-center{
+.text-center {
   text-align: center;
 }
 .field {
@@ -51,14 +50,14 @@ select {
   outline: none;
 }
 
-@media screen and (max-width: 1200px){
-  .get-started .left img:first-child{
+@media screen and (max-width: 1200px) {
+  .get-started .left img:first-child {
     width: 60%;
   }
-  .get-started .left img{
+  .get-started .left img {
     width: 80%;
   }
-  .first-row{
+  .first-row {
     flex-direction: column;
     gap: 0;
   }

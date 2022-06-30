@@ -74,6 +74,10 @@ a {
 .flex-1 {
   flex: 1;
 }
+.container{
+  padding: 0 !important;
+  margin: 0 !important;
+}
 /* responsive header start */
 @media screen and (max-width: 900px) {
   .main-header {
@@ -221,6 +225,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  width: 100%;
 }
 .sub-header .container .col {
   display: flex;

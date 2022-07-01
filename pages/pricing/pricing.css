@@ -126,7 +126,7 @@ body {
   color: #00ffff;
 }
 .cards-container .card h4 {
-  font-weight: 600;
+  font-weight: 700;
 }
 .card-detail h5 {
   font-weight: 600;
@@ -209,6 +209,11 @@ li.active {
   background: #ffcbcb;
   padding: 5px;
   border-radius: 30px;
+}
+.dolar-des{
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
 }
 /* section-4-end */
 

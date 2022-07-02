@@ -69,9 +69,8 @@ body {
   background-color: #fff;
   padding: 15px;
   border-radius: 10px;
-  min-width: 270px;
-  max-width: 295px;
-  height: 147px;
+  width: 300px;
+  height: 160px;
   border-right: 5px solid #5d9eeb;
   border-bottom: 5px solid #5d9eeb;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.16);
@@ -165,12 +164,12 @@ body {
     height: auto;
   }
   .feature-card {
-    height: 160px;
+    height: 170px;
   }
 }
 @media screen and (max-width: 1300px) {
   .feature-card {
-    min-width: 210px;
+    width: 280px;
   }
   .feature-card .feature-card-header {
     font-size: 13px;
@@ -184,7 +183,7 @@ body {
 }
 @media screen and (max-width: 1200px) {
   .feature-card {
-    min-width: 180px;
+    width: 250px;
   }
 }
 @media screen and (max-width: 1040px) {

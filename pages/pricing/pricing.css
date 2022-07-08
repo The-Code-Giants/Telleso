@@ -210,7 +210,7 @@ li.active {
   padding: 5px;
   border-radius: 30px;
 }
-.dolar-des{
+.dolar-des {
   font-size: 15px;
   font-weight: 500;
   line-height: 22px;
@@ -218,7 +218,12 @@ li.active {
 /* section-4-end */
 
 /* responsive  */
-
+.card-info {
+  height: 70px;
+}
+.card-info-last {
+  height: 100px;
+}
 @media screen and (max-width: 1600px) {
   .pricing-section1,
   .pricing-section2,
@@ -232,10 +237,10 @@ li.active {
   }
 }
 @media screen and (max-width: 1300px) {
-  .card-info{
+  .card-info {
     height: 100px;
   }
-  .card-info-last{
+  .card-info-last {
     height: 130px;
   }
   .table > div:not(:first-child) {
@@ -246,7 +251,6 @@ li.active {
   }
 }
 @media screen and (max-width: 1200px) {
-  
   .pricing-section1 .left-img,
   .right-img {
     width: 11%;
@@ -293,5 +297,4 @@ li.active {
     top: 9px;
     font-size: 24px;
   }
-  
 }

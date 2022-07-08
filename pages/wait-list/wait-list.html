@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/85942e8afd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>wait-list</title>
+    <link rel="stylesheet" href="wait-list.css" />
+    <link rel="stylesheet" href="../../main.css" />
+  </head>
+
+  <body>
+    <header class="main-header">
+      <div class="header-logo">
+        <a href="../../index.html">
+          <img src="../../assets/images/logo/logo.png" alt="logo" />
+        </a>
+      </div>
+    </header>
+
+    <!-- main-section start  -->
+    <div class="request-demo section">
+      <div class="demo-sections">
+        <div class="request-section">
+          <h1 class="heading">Telleso is launching soon. Join our waitlist!</h1>
+          <img src="../../assets/images/screens/login/screen1.png" class="people-img"/>
+        </div>
+        <div class="form-section">
+          <div class="eclipse-req"></div>
+          <img src="../../assets/images/wait-list/elipse.png" class="eclipse-req2"></img>
+          <div class="submit-form">
+            <h2 class="form-header">Join Our Waitlist</h2>
+
+            <form action="/action_page.php">
+              <label for="fullname">Full name*</label><br />
+              <input
+                type="text"
+                id="fullname"
+                name="fullname"
+                value="Your full name"
+              /><br />
+              <label for="address">Business email address*</label><br />
+              <input
+                type="text"
+                id="address"
+                name="address"
+                value="Work email address"
+              /><br />
+              <label for="number">Phone number*</label><br />
+              <input
+                type="tel"
+                id="tel"
+                name="number"
+                value="Your phone number"
+              /><br />
+              <label for="company">Company*</label><br />
+              <input
+                type="text"
+                id="company"
+                name="company"
+                value="Your company"
+              /><br />
+              <br />
+              <input type="submit" value="Join" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- main-section end -->
+
+    <script src="../../app.js"></script>
+  </body>
+</html>
